@@ -10,3 +10,12 @@ list of common powershell commands for docker.
 
 # Show Logs
 `docker logs <container Id>`
+
+# Volumes
+## Create New
+`docker run -p <port mapping> -v /<path> <image>` - This writes to the host area of the container. 
+
+## Find Existing
+`docker inspect <container name>`
+
+
